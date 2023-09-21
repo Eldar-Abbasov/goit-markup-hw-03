@@ -6,13 +6,55 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* ================header section============================= */
+.header-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  gap: 76px;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-logo {
   color: #4d5ae5;
   text-transform: uppercase;
@@ -28,11 +70,13 @@ a {
 }
 
 .header-nav-link {
+  display: inline-block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .header-nav-link:hover,
@@ -45,6 +89,7 @@ a {
 }
 
 .header-mailtel {
+  display: inline-block;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
