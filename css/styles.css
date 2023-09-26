@@ -240,13 +240,13 @@ img {
 
 .portfolio-section-list {
   display: flex;
-  gap: 24px;
-  flex-basis: calc((100% - 24px * 2) / 3);
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-section-item {
-  border: 1px solid #e7e9fc;
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-section-title {
@@ -261,9 +261,9 @@ img {
 }
 
 .portfolio-section-info {
-  padding: 32px 0;
-  padding-left: 16px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-section-name {
