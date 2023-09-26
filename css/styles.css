@@ -38,7 +38,6 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-
 .header-inner {
   display: flex;
   justify-content: space-between;
@@ -52,12 +51,10 @@ img {
   display: flex;
   gap: 40px;
 }
-
 .header-address-list {
   display: flex;
   gap: 40px;
 }
-
 .header-logo {
   color: #4d5ae5;
   margin-right: 76px;
@@ -68,11 +65,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
 }
-
 .header-logo-accent {
   color: #2e2f42;
 }
-
 .header-nav-link {
   display: inline-block;
   color: #2e2f42;
