@@ -209,6 +209,7 @@ img {
 
 .team-section-item {
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-section-info {
