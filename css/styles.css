@@ -188,8 +188,10 @@ img {
 /* ===================== team section ========================================= */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-section-title {
+  margin-bottom: 72px;
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
@@ -198,10 +200,23 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
 .team-section-list {
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.team-section-item {
   background-color: #fff;
 }
+
+.team-section-image {
+  margin-bottom: 32px;
+}
+
 .team-section-name {
+  margin-bottom: 8px;
   text-align: center;
   color: #2e2f42;
   font-size: 20px;
@@ -210,6 +225,7 @@ img {
   letter-spacing: 0.4px;
 }
 .team-section-text {
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
