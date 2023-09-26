@@ -235,10 +235,22 @@ img {
 
 /* ============================== portfolio =================================== */
 .portfolio-section {
+  padding: 120px 0;
 }
+
 .portfolio-section-list {
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 24px * 2) / 3);
+  flex-wrap: wrap;
 }
+
+.portfolio-section-item {
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-section-title {
+  margin-bottom: 72px;
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
@@ -247,7 +259,15 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
+.portfolio-section-info {
+  padding: 32px 0;
+  padding-left: 16px;
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-section-name {
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
