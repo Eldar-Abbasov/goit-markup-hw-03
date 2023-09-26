@@ -35,14 +35,17 @@ img {
 }
 
 /* ================header section============================= */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-inner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .nav-container {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 .header-nav {
@@ -57,6 +60,7 @@ img {
 
 .header-logo {
   color: #4d5ae5;
+  margin-right: 76px;
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -86,6 +90,11 @@ img {
 
 .header-address {
   font-style: normal;
+}
+
+.header-address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-mailtel {
